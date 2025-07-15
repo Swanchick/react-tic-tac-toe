@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    font-size: 48px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background: none;
+
+    outline: none;
+    border: 2px solid;
+
+    transition: background-color 0.1s;
+    cursor: default;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.active:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.game {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+}
+
+.winner {
+    color: red;
+}
+
+.logger-container {
+    overflow-y: auto;
+    width: 15rem;
+}
+
+.logger-container button {
+    width: 100%;
+}
