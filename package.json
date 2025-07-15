@@ -14,17 +14,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Swanchick/wix-calendar.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Swanchick/wix-calendar/issues"
-  },
-  "homepage": "https://github.com/Swanchick/wix-calendar#readme",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
